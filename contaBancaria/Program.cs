@@ -43,6 +43,7 @@ namespace contaBancaria {
                 conta = new ContaBancaria(numero, titular);
             }
 
+            Console.WriteLine("-----------DADOS-----------:");
             Console.WriteLine();
             Console.WriteLine("Dados da conta:");
             Console.WriteLine(conta);
